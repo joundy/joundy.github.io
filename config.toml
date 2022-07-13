@@ -1,0 +1,4 @@
+baseURL = "https://joundy.me/"
+languageCode = "en-us"
+title = "Jon's Blog"
+theme = "PaperMod"
