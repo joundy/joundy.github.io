@@ -2,3 +2,15 @@ baseURL = "https://joundy.me/"
 languageCode = "en-us"
 title = "Jon's Site"
 theme = "PaperMod"
+
+[params.homeInfoParams]
+Title = "Hafiz Joundy Syafie"
+Content = """
+- ### Welcome to **Jon's Blog**
+-
+- Hello, my name is [**Hafiz Joundy Syafie**](https://www.linkedin.com/in/joundy/), I was born in **Banjarnegara** **22** years ago, it's a small city in **Indonesia**, I  really love anything about technology, especially in the programing world.
+-
+- I started learning program when I was in high school, I remember when I was coding vbasic lang for the first time, the "Hello World" project, the project that will change my life forever and ended as a **Software Engineer**.
+-
+- Currently, I'm working at [Paras Digital](https://paras.id), the biggest **NFT Marketplace** in **NEAR Protocol**, trust me it's a really cool company with amazing teams :D
+"""
