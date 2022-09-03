@@ -1,6 +1,6 @@
 baseURL = "https://joundy.me/"
 languageCode = "en-us"
-title = "Jon's Site"
+title = "Jon's Blog"
 theme = "PaperMod"
 
 [params.homeInfoParams]
