@@ -18,6 +18,8 @@ Content = """
 - Currently, I'm working at [Paras Digital](https://paras.id), the biggest **NFT Marketplace** in **NEAR Protocol**, trust me it's a really cool company with amazing teams :D
 """
 ImageUrl = "/images/profile.jfif"
+ResumeUrl = "/resume"
+ResumeText = "Jon's Resume"
 
 [[params.socialIcons]]
 name = "linkedin"
