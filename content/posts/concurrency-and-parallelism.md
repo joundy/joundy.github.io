@@ -1,7 +1,7 @@
 ---
 title: "Concurrency and Parallelism"
 date: 2022-09-01T21:39:57+07:00
-draft: false
+draft: true
 ---
 
 ## Intro
