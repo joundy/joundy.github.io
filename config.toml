@@ -1,12 +1,12 @@
 baseURL = "https://joundy.me/"
 languageCode = "en-us"
-title = "Jon's Site"
+title = "Jon's Website"
 theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Hafiz Joundy Syafie"
 Content = """
-- ### Welcome to **Jon's Site**
+- ### Welcome to **Jon's Website**
 -
 - Hello, my name is [**Hafiz Joundy Syafie**](https://www.linkedin.com/in/joundy/), I was born in **Banjarnegara** **22** years ago, it's a small and beautiful city in **Indonesia**, I  really love anything about technology, especially in the programming world.
 -
