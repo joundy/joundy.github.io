@@ -8,15 +8,15 @@ Title = "Hafiz Joundy Syafie"
 Content = """
 - ### Welcome to **Jon's Website**
 -
-- Hello, my name is [**Hafiz Joundy Syafie**](https://www.linkedin.com/in/joundy/), I was born in **Banjarnegara** **22** years ago, it's a small and beautiful city in **Indonesia**, I  really love anything about technology, especially in the programming world.
+- My name is Hafiz Joundy Syafie, I was born in Banjarnegara 22 years ago, it's a small and scenic city in Indonesia. I am very passionate about technology, particularly programming.
 -
-- I have been learning to code since I was in high school, I remember the first project that I made, it was the “Hello World” program, I didn’t expect a simple project that contains 11 characters had brought me to the programming realm and ended as a **Software Engineer**.
+- When I was in high school, I made the "Hello World" program, which I didn't expect would bring me to the programming realm and end with me as a Software Engineer.
 -
-- I'm a Software Engineer that focuses on the **Backend** side, so far I have 3 main proficient programming languages: [**Javascript**](https://nodejs.org/), [**Golang**](https://go.dev/), and [**Rust**](https://www.rust-lang.org/)
+- I am a Software Engineer who specializes in the backend, currently proficient in Javascript, Golang, and Rust.
 -
-- I have experience working in startup companies, developing **large-scale applications** to handle end-users across the world, besides the technical skills I also have soft skills for collaborating between teams like the Product team and QA.
+- As well as my technical skills, I have soft skills for collaborating between teams like the Product team and the Quality Assurance team. I have worked in startups developing large-scale applications for users worldwide.
 -
-- Currently, I'm working at [Paras Digital](https://paras.id), the biggest **NFT Marketplace** in [NEAR Protocol](https://near.org/), trust me it's a really cool company with amazing teams :D
+- I'm currently working for Paras Digital, the largest NFT marketplace in the NEAR Protocol.
 """
 ImageUrl = "/images/profile.jfif"
 ResumeUrl = "/resume"
