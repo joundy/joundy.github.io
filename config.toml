@@ -8,17 +8,17 @@ Title = "Hafiz Joundy Syafie"
 Content = """
 - ### Welcome to **Jon's Website**
 -
-- My name is Hafiz Joundy Syafie, I was born in Banjarnegara 22 years ago, it's a small and scenic city in Indonesia. I am very passionate about technology, particularly programming.
+- My name is **Hafiz Joundy Syafie**, I was born in **Banjarnegara**, **22** years ago, it's a small and scenic city in **Indonesia**. I am very passionate about technology, particularly programming.
 -
-- When I was in high school, I made the "Hello World" program, which I didn't expect would bring me to the programming realm and end with me as a Software Engineer.
+- When I was in high school, I made the "Hello World" program, which I didn't expect would bring me to the programming realm and end with me as a **Software Engineer**.
 -
-- I am a Software Engineer who specializes in the backend, currently proficient in Javascript, Golang, and Rust.
+- I am a Software Engineer who specializes in the **Backend**, currently proficient in **Javascript**, **Golang**, and **Rust**.
 -
 - As well as my technical skills, I have soft skills for collaborating between teams like the Product team and the Quality Assurance team. I have worked in startups developing large-scale applications for users worldwide.
 -
-- I'm currently working for Paras Digital, the largest NFT marketplace in the NEAR Protocol.
+- I'm currently working for [Paras Digital](https://paras.id), the largest **NFT marketplace** in the **NEAR Protocol**.
 """
-ImageUrl = "/images/profile.jfif"
+ImageUrl = "/images/profile.jpeg"
 ResumeUrl = "/resume"
 ResumeText = "Jon's Resume"
 
