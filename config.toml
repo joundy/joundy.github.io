@@ -9,6 +9,7 @@ defaultTheme = 'dark'
 disableThemeToggle = true
 
 [params.homeInfoParams]
+WithCircle3D = true
 # Title = "Hafiz Joundy Syafie"
 # ImageUrl = "/images/profile.jpeg"
 # ResumeUrl = "/resume"
