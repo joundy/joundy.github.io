@@ -1,12 +1,17 @@
 baseURL = "https://joundy.me/"
 languageCode = "en-us"
-title = "Jon's Website"
+title = "Jon's Stories"
 theme = "PaperMod"
+robotsNoIndex = true
+
+[params]
+defaultTheme = 'dark'
+disableThemeToggle = true
 
 [params.homeInfoParams]
 Title = "Hafiz Joundy Syafie"
 Content = """
-- ### Welcome to **Jon's Website**
+- ### Welcome to **Jon's Stories**
 -
 - My name is **Hafiz Joundy Syafie**, I was born in **Banjarnegara**, **23** years ago, it's a small and scenic city in **Indonesia**. I am very passionate about technology, particularly programming.
 -
@@ -20,7 +25,10 @@ Content = """
 """
 # ImageUrl = "/images/profile.jpeg"
 # ResumeUrl = "/resume"
-# ResumeText = "Jon's Resume"
+# ResumeText = "Jon's Stories"
+
+[[params.resume]]
+
 
 [[params.socialIcons]]
 name = "linkedin"
