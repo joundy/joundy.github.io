@@ -9,7 +9,10 @@ defaultTheme = 'dark'
 disableThemeToggle = true
 
 [params.homeInfoParams]
-Title = "Hafiz Joundy Syafie"
+# Title = "Hafiz Joundy Syafie"
+# ImageUrl = "/images/profile.jpeg"
+# ResumeUrl = "/resume"
+# ResumeText = "Jon's Stories"
 Content = """
 - ### Welcome to **Jon's Stories**
 -
@@ -23,12 +26,6 @@ Content = """
 -
 - I'm currently working for [Paras Digital](https://paras.id), the largest **NFT marketplace** in the **NEAR Protocol**.
 """
-# ImageUrl = "/images/profile.jpeg"
-# ResumeUrl = "/resume"
-# ResumeText = "Jon's Stories"
-
-[[params.resume]]
-
 
 [[params.socialIcons]]
 name = "linkedin"
