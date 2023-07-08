@@ -9,15 +9,16 @@ defaultTheme = 'dark'
 disableThemeToggle = true
 
 [params.homeInfoParams]
-WithCircle3D = true
-# Title = "Hafiz Joundy Syafie"
-# ImageUrl = "/images/profile.jpeg"
+WithCircle3D = false
+Name = "Hafiz Joundy Syafie"
+Title = "Sr. Backend Engineer"
+# ImageUrl = "/images/profile.png"
 # ResumeUrl = "/resume"
 # ResumeText = "Jon's Stories"
 Content = """
-- ### Welcome
+- ### Hello
 -
-- My name is **Hafiz Joundy Syafie**, I was born in **Banjarnegara**, **23** years ago, it's a small and scenic city in **Indonesia**. I am very passionate about technology, particularly programming.
+- I was born in **Banjarnegara**, **23** years ago, it's a small and scenic city in **Indonesia**. I am very passionate about technology, particularly programming.
 -
 - When I was in high school, I made the "Hello World" program, which I didn't expect would bring me to the programming realm and end with me as a **Software Engineer**.
 -
