@@ -1,6 +1,6 @@
 baseURL = "https://joundy.me/"
 languageCode = "en-us"
-title = "Jon's Stories"
+title = "Jon's Blog"
 theme = "PaperMod"
 robotsNoIndex = true
 
@@ -15,7 +15,7 @@ WithCircle3D = true
 # ResumeUrl = "/resume"
 # ResumeText = "Jon's Stories"
 Content = """
-- ### Welcome to **Jon's Stories**
+- ### Welcome
 -
 - My name is **Hafiz Joundy Syafie**, I was born in **Banjarnegara**, **23** years ago, it's a small and scenic city in **Indonesia**. I am very passionate about technology, particularly programming.
 -
@@ -25,7 +25,7 @@ Content = """
 -
 - As well as my technical skills, I have soft skills for collaborating between teams. I have worked in startups developing large-scale applications for users worldwide.
 -
-- I'm currently working for [Paras Digital](https://paras.id), the largest **NFT marketplace** in the **NEAR Protocol**.
+- I'm currently working for [Paras Digital](https://paras.id), the largest **NFT marketplace** in the **NEAR Protocol**, ex: **Ruangguru**, **Telkom Indonesia**.
 """
 
 [[params.socialIcons]]
