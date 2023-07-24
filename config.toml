@@ -13,8 +13,9 @@ WithCircle3D = false
 Name = "Hafiz Joundy Syafie"
 Title = "Sr. Backend Engineer"
 # ImageUrl = "/images/profile.png"
-# ResumeUrl = "/resume"
-# ResumeText = "Jon's Stories"
+ResumeUrl = "/resume"
+ResumeText = "Resume"
+
 Content = """
 - ### Hello
 -
