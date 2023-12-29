@@ -11,10 +11,10 @@ disableThemeToggle = true
 [params.homeInfoParams]
 WithCircle3D = false
 Name = "Hafiz Joundy Syafie"
-Title = "Sr. Backend Engineer"
+Title = "Software Engineer"
 # ImageUrl = "/images/profile.png"
-ResumeUrl = "/resume"
-ResumeText = "Resume"
+# ResumeUrl = "/resume"
+# ResumeText = "Resume"
 
 Content = """
 - ### Hello
@@ -25,7 +25,7 @@ Content = """
 -
 - As well as my technical skills, I have soft skills for collaborating between teams. I have worked in startups developing large-scale applications for users worldwide.
 -
-- I'm currently working for [Paras Digital](https://paras.id), the largest **NFT marketplace** in the **NEAR Protocol**, ex: **Ruangguru**, **Telkom Indonesia**.
+- I'm currently working for [Ordzaar](https://ordzaar.com), **NFT marketplace** in the **Bitcoin Ordinal Protocol**, ex: ***Paras Digital**, **Ruangguru**, **Telkom Indonesia**.
 -
 - **contact@joundy.me**
 """
