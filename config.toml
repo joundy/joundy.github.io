@@ -1,4 +1,4 @@
-baseURL = "https://joundy.me/"
+baseURL = "https://joundy.dev/"
 languageCode = "en-us"
 title = "Jon's Blog"
 theme = "PaperMod"
