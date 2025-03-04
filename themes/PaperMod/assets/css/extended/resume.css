@@ -1,0 +1,110 @@
+#resume-main{
+	color: var(--content);
+	font-size: 16px;
+	width: 768px !important;
+	padding-right: 12px;
+	margin-bottom: 64px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media print {
+	main {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+}
+
+.resume-header{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 12px;
+}
+
+.resume-header__left-info{
+	flex: 1
+}
+
+.resume-header__title{
+	flex: 1;
+	text-align: center;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	font-size: 19px;
+}
+
+.resume-header__right-info{
+	flex: 1;
+	text-align: right;
+}
+
+.resume-line{
+	width: 100%;
+    height: 1px;
+    background-color: var(--secondary) !important;
+}
+
+.resume-divider > p {
+	font-weight: 600;
+}
+
+.resume-divider-title{
+	font-weight: 600;
+	display: flex;
+	justify-content: space-around;
+}
+
+.resume-divider-title__description{
+	text-align: left;
+	flex: 1
+}
+
+.resume-divider-title__main{
+	flex: 1;
+	text-align: center;
+}
+
+.resume-divider-title__date{
+	flex: 1;
+	text-align: right;
+}
+
+.resume-section{
+	margin-bottom: 16px;
+}
+
+.resume-items > ul, .resume-section > ul{
+	margin-left: 24px
+}
+
+.resume-items{
+	margin-bottom: 16px;
+}
+
+.resume-bold{
+	font-weight: 600;
+	color: var(--content)
+}
+
+#resume-download{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#resume-download > button:active{
+  transform: scale(0.96);
+	transition: transform .1s;
+	display: inline-block;
+}
+
+#resume-download > button{
+	font-weight: 600;
+	font-size: 16px;
+	padding: 12px;
+	border-radius: var(--radius);
+	border: 1px solid var(--border);
+	background-color: var(--entry);
+	font-weight: 600;
+	text-align: center;
+}

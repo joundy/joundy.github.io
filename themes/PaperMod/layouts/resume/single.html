@@ -1,0 +1,223 @@
+{{- define "main" }}
+
+<!-- TODO pass the values from md document -->
+<main id="resume-main">
+  <div class="resume-header">
+    <div class="resume-header__left-info">
+      <p>Purwokerto, Indonesia</p>
+      <p>
+        <a href="https://github.com/joundy">github.com/joundy</a>
+      </p>
+    </div>
+    <div class="resume-header__title">
+      <h3>Hafiz Joundy Syafie</h3>
+    </div>
+    <div class="resume-header__right-info">
+      <p>hafizjoundys@gmail.com</p>
+      <p>
+        <a href="https://joundy.dev">joundy.dev</a>
+      </p>
+    </div>
+  </div>
+  <div class="resume-employment resume-section">
+    <div class="resume-divider">
+      <p>Employment</p>
+      <div class="resume-line"></div>
+    </div>
+
+    <div class="resume-items">
+      <div class="resume-divider-title">
+        <p class="resume-divider-title__description">Software Engineer</p>
+        <p class="resume-divider-title__main">Glittr</p>
+        <p class="resume-divider-title__date">Oct 2024-Present</p>
+      </div>
+      <p>
+        (<a href="https://glittr.fi/">glittr.fi</a>) Native Bitcoin Smart Contracts, Execution, & Settlement
+      </p>
+      <ul>
+	      <li>Served as a key person in developing the core protocol (<a href="https://github.com/joundy/glittr-core-public">github</a>), which parses Glittr scripts from Bitcoin OP_RETURN transactions and indexes data based on Glittr contract/asset types. This included participating in discussions about protocol design, performance, and efficiency.</li>
+<li>Added core features including flaw/error standardization, asset state, mint asset, transfer, and asset ticker. These features serve as a foundation to the core, allowing future changes to be easily integrated, resulting in better developer experience.</li>
+<li>Implemented Brotli compression and Borsh serialization into Glittr script, and created custom data types like varuint/varint and base26 for greater efficiency. This resulted in highly efficient script utilization within Bitcoin's limited OP_RETURN size.</li>
+      </ul>
+      <p>
+        <span class="resume-bold">Leverage Knowledge: </span> Rust, Bitcoin, Docker, Bitcoin, Ordinals, Rune (ordinals)
+      </p>
+    </div>
+
+    <div class="resume-items">
+      <div class="resume-divider-title">
+        <p class="resume-divider-title__description">Software Engineer</p>
+        <p class="resume-divider-title__main">East Layer</p>
+        <p class="resume-divider-title__date">May 2024-Oct 2024</p>
+      </div>
+      <p>
+        (<a href="https://web.archive.org/web/20241104082827/https://eastblue.io/">eastblue.io</a>) The Universal Application Layer for Bitcoin
+      </p>
+      <ul>
+	<li>Created East Bitcoin SDK (<a href="https://github.com/EAST-Blue/east-bitcoin-lib/tree/master/packages/sdk">github</a>), a one-stop solution for using Bitcoin in JavaScript. Features include PSBT transaction builder, fee calculator, address types builder, and more. Users can easily create Bitcoin transactions such as minting Rune tokens or Ordinals NFTs.</li>
+	<li>Developed Rune AssemblyScript script (<a href="https://github.com/EAST-Blue/runes-smart-index">github</a>), a sidecar to index Rune protocol in East layer. Rewrote the Rune protocol from Rust to AssemblyScript with 100% compatibility, including script encoding and serialization.</li>
+	<li>Created Regbox (<a href="https://github.com/EAST-Blue/east-bitcoin-lib/tree/master/packages/regbox">github</a>), a development toolkit for running Bitcoin services. The tool spawns Bitcoin Core, Electrum server, and explorer effortlessly. Regbox enhances developer experience by providing all necessary services locally for developing projects in the Bitcoin ecosystem.</li>
+      </ul>
+      <p>
+        <span class="resume-bold">Leverage Knowledge: </span> Rust, Docker, Bitcoin, Ordinals, Rune (ordinals)
+      </p>
+    </div>
+
+    <div class="resume-items">
+      <div class="resume-divider-title">
+        <p class="resume-divider-title__description">Software Engineer</p>
+        <p class="resume-divider-title__main">Cake (Ordzaar)</p>
+        <p class="resume-divider-title__date">Nov 2023-Apr 2024</p>
+      </div>
+      <p>
+        (<a href="https://ordzaar.com/">ordzaar.com</a>) Bitcoin Ordinal NFT Marketplace/Launchpad
+      </p>
+      <ul>
+	<li>Handled and maintained the bitcoin indexer infrastructure, including adding features like ordinal pointer.</li>
+	<li>Integrated Leather wallet, enabling users to use the Leather wallet on the Ordzaar website.</li>
+	<li>Created a proof of concept for Bitcoin Rune (ordinals) during its early implementation, successfully demonstrated its usage and capabilities, and developed the SDK (draft), resulting in deep understanding of the protocol despite the absence of official documentation at that time.</li>
+      </ul>
+      <p>
+        <span class="resume-bold">Leverage Knowledge: </span> Rust, Typescript, Docker, AWS, ReactJs, Bitcoin, Ordinals, Rune (ordinals)
+      </p>
+    </div>
+
+    <div class="resume-items">
+      <div class="resume-divider-title">
+        <p class="resume-divider-title__description">Backend Engineer</p>
+        <p class="resume-divider-title__main">Paras</p>
+        <p class="resume-divider-title__date">Jan 2022-Nov 2023</p>
+      </div>
+      <p>
+        (<a href="https://paras.id">paras.id</a>) The largest NFT Marketplace in
+        Near Protocol
+      </p>
+      <ul>
+        <li>Migrated legacy infrastructure to Kubernetes (GKE), performed the cluster setup, containerized all services using Docker, set up IAM & K8s RABAC, and optimized the scaling values. As a results achieved scalable services, robust performance, and easy maintenance on GKE.</li>
+        <li>Implemented a comprehensive monitoring system using tools such as Grafana, Prometheus, and Loki. This setup allows us to gather real-time metrics from our services, including logging capabilities and alerting functionality.</li>
+        <li>Improved the indexer service to handle massive logs, enabling it to process more than 1000 block's logs per second. This improvement also included the ability to whitelist the Near NFT contract NEP-171, resulting in smooth synchronization between on-chain and off-chain data. Additionally, it has facilitated external projects in integrating the contract immediately.</li>
+        <li>Created an NFT trade feature for the smart contract, allowing users to trade their own NFTs with each other. Implemented a refund mechanism to ensure that all approval IDs are successfully approved.</li>
+        <li>Created a locked staking feature for the smart contract, enabling users to lock their balances for a period of time and have a chance to earn rewards. This results in a more stable token price for the paras native token.</li>
+      </ul>
+      <p>
+        <span class="resume-bold">Leverage Knowledge: </span>Rust, Javascript,
+        MongoDB, Prometheus, Loki, Docker, Kubernetes, GCP
+      </p>
+    </div>
+
+    <div class="resume-items">
+      <div class="resume-divider-title">
+        <p class="resume-divider-title__description">Backend Engineer</p>
+        <p class="resume-divider-title__main">Ruangguru</p>
+        <p class="resume-divider-title__date">Jan 2020-Oct 2021</p>
+      </div>
+      <p>
+        (<a href="https://www.ruangguru.com/">ruangguru.com</a>) Education tech
+        company
+      </p>
+      <ul>
+        <li>Created a new authorization service and middleware library, changed the protocol from HTTP to gRPC, and also migrated 50+ services to use the new one, resulting in less bandwidth usage and easier integration with other microservices.</li>
+        <li>Developed a user impersonation feature and integrated it into RABAC. This feature is used by the internal team to impersonate the real user, resulting in easier bug reproduction and securing access for eligible users only.</li>
+        <li>Developed a rewarding service, which is used to consolidate all rewards into one service. This includes creating documentation and presenting the PDC (Public Design Challenge) to all engineers.</li>
+        <li>Created a real-time leaderboard feature used by 'Ruang Belajar', and successfully tested the leaderboard in real-time with 10k concurrent users, resulting in a better user experience and fair results.</li>
+      </ul>
+      <p>
+        <span class="resume-bold">Leverage Knowledge: </span>Golang, MySQL,
+        Redis, Elasticsearch, Docker, Kubernetes, GCP
+      </p>
+    </div>
+
+    <div class="resume-items">
+      <div class="resume-divider-title">
+        <p class="resume-divider-title__description">Backend Engineer</p>
+        <p class="resume-divider-title__main">Telkom Indonesia (Codex)</p>
+        <p class="resume-divider-title__date">Sept 2018-Dec 2019</p>
+      </div>
+      <p>
+        (<a href="https://www.telkom.co.id/">telkom.co.id</a>)
+        Telecommunications network company
+      </p>
+      <ul>
+        <li>Designed the database schema for the HR management apps at https://codex.works/ and successfully migrated from SQL to MongoDB. This migration has brought about increased flexibility and faster development.</li>
+        <li>Created live coding feature, this feature is used by Codex Assigment App to test user’s coding skills.</li>
+      </ul>
+      <p>
+        <span class="resume-bold">Leverage Knowledge: </span>NodeJS, GraphQL,
+        MongoDB, Docker, OpenShift
+      </p>
+    </div>
+  </div>
+  <div class="resume-skills resume-section">
+    <div class="resume-divider">
+      <p>Skills</p>
+      <div class="resume-line"></div>
+    </div>
+    <p>
+      <span class="resume-bold">Proficient</span>: Rust, Golang, Typescript,
+      MongoDB, MySQL, Redis, Kubernetes, Docker, GRPC, AWS, Bitcoin Knowledge
+    </p>
+    <p>
+      <span class="resume-bold">Farmiliar</span>: Python, PHP,
+      Elasticsearch, RabbitMQ, GCP, Prometheus, Loki, Linux Commands,
+      VIM
+    </p>
+  </div>
+  <div class="resume-education resume-section">
+    <div class="resume-divider">
+       <p>Education</p>
+       <div class="resume-line"></div>
+     </div>
+     <div class="resume-items">
+       <div class="resume-divider-title">
+         <p class="resume-divider-title__description">Purwokerto, Indonesia</p>
+         <p class="resume-divider-title__main">Telkom Vocational High School</p>
+         <p class="resume-divider-title__date">Jul 2015-Jul 2018</p>
+       </div>
+       <ul>
+         <li><span class="resume-bold">Major: </span>Software Engineering</li>
+        <li><span class="resume-bold">Degree: </span>Diploma</li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<div id="resume-download">
+  <button onclick="printResume()">Save</button>
+</div>
+
+<script>
+  function printResume() {
+    const printContents = document.getElementsByClassName("main")[0].innerHTML;
+    const originalContents = document.body.innerHTML;
+
+    document.body.innerHTML = printContents;
+
+    // adjust the html before printing
+    document.getElementById("resume-download").remove();
+    document.getElementById("resume-main").style.width = "100% !important";
+    document.getElementById("resume-main").style.color = "black";
+
+    let elems
+
+    elems = document.getElementsByTagName("h3");
+    for (let i = 0; i < elems.length; i++) {
+      elems[i].style.color = 'black';
+    }
+    elems = document.getElementsByTagName("a");
+    for (let i = 0; i < elems.length; i++) {
+      elems[i].style.color = 'black';
+    }
+    elems = document.getElementsByTagName("span");
+    for (let i = 0; i < elems.length; i++) {
+      elems[i].style.color = 'black';
+    }
+
+    window.print();
+
+    // restore the default html
+    document.body.innerHTML = originalContents;
+  }
+</script>
+
+{{- end }}{{/* end main */}}
+

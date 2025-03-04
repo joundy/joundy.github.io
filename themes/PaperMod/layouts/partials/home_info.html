@@ -1,0 +1,36 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+  <div class="home-info__profile-img">
+    {{- if .ImageUrl}} <img draggable="false" src="{{ .ImageUrl | absURL }}"
+    alt="{{ .imageTitle | default "profile image" }}" height="{{ .imageHeight |
+    default 150 }}" width="{{ .imageWidth | default 150 }}" /> {{- end -}}
+  </div>
+
+  {{- if .Name}}
+  <header class="entry-header">
+    <h2>{{ .Name | markdownify }}</h2>
+    <p>{{ .Title | markdownify }}</p>
+  </header>
+  {{- end -}}
+
+  {{- if .WithCircle3D}}
+  <div class="circle-3d">
+    <div class="circle">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  {{- end -}}
+
+  <div class="entry-content">{{ .Content | markdownify }}</div>
+  <footer class="entry-footer">
+    {{- if .ResumeUrl}}
+    <div class="resume-button">
+      <a class="resume-button__link" href="{{ .ResumeUrl }}"
+        >{{ .ResumeText | default "My Resume"}}</a
+      >
+    </div>
+    {{- end -}} {{ partial "social_icons.html" site.Params.socialIcons }}
+  </footer>
+</article>
+{{- end -}}
