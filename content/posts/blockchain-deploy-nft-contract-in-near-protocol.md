@@ -1,7 +1,7 @@
 ---
 title: "Blockchain: Deploy NFT Contract in Near Protocol"
 date: 2022-09-03T22:54:04+07:00
-draft: false
+draft: true
 ---
 
 ## Intro 

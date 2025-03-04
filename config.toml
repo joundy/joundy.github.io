@@ -1,6 +1,6 @@
 baseURL = "https://joundy.dev/"
 languageCode = "en-us"
-title = "Jon's Blog"
+title = "Joundy's Blog"
 theme = "PaperMod"
 robotsNoIndex = true
 
@@ -10,24 +10,22 @@ disableThemeToggle = true
 
 [params.homeInfoParams]
 WithCircle3D = false
-Name = "Hafiz Joundy Syafie"
+Name = "Joundy Syafie"
 Title = "Software Engineer"
 # ImageUrl = "/images/profile.png"
-# ResumeUrl = "/resume"
-# ResumeText = "Resume"
+ResumeUrl = "/resume"
+ResumeText = "Resume"
 
 Content = """
 - ### Hello
 -
-- I was born in **Banjarnegara**, **24** years ago, it's a small and scenic city in **Indonesia**. I am very passionate about technology, particularly programming.
+- I'm from Banjarnegara, a small and scenic city in Indonesia, and I'm 25 years old. I'm really passionate about technology, especially in software engineering.
+- 
+- I work as a Software Engineer speciailized in backend development, and infrastructure, and I'm skilled in Rust, Golang, and Javascript/Typescript.
 -
-- I am a Software Engineer who specializes in the **Backend**, currently proficient in **Javascript**, **Golang**, and **Rust**.
--
-- As well as my technical skills, I have soft skills for collaborating between teams. I have worked in startups developing large-scale applications for users worldwide.
--
-- I'm currently working for [East Blue](https://eastblue.io) **Bitcoin L2** , ex: **[Ordzaar](https://ordzaar.com)**, **[Paras](https://paras.id)**, **[Ruangguru](https://ruangguru.com)**, **Telkom Indonesia**.
--
-- **hafizjoundys@gmail.com**
+- For the past 3 years, I've been working in the blockchain space. I helped build NFT marketplaces on Near Protocol (paras.id) and Bitcoin Ordinals (ordzaar.com). Recently, I've also been working on Bitcoin Layer 2 projects called East Layer and Glittr Protocol.
+- 
+- Besides my technical skills, I'm good at working with different teams. I have experience working at startups where I helped develop large-scale applications used by people around the world.
 """
 
 [[params.socialIcons]]

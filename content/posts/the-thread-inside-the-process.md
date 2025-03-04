@@ -1,7 +1,7 @@
 ---
 title: "OS: The Thread Inside The Process"
 date: 2023-07-05T21:50:43+07:00
-draft: false
+draft: true
 ---
 
 ![Image alt](/images/process_thread.png)
