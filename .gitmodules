@@ -1,4 +1,0 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = git@github.com:joundy/hugo-PaperMod.git
-	branch = master
